@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Charity Miles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+</head>
+<body id="body_4">
+    <center>
+<h1 id="title_4">CHARITY FOR CHILREN</h1>
+<br><br> <br> 
+<h3>What do you want to donate?</h3>
+<br> <br>  
+<div>
+<button id="toys_btn" onclick="donate_toys()" style="width: 500px;">
+<img id="toys_img" src="icons8-toys-64.png">
+<br>
+<h3>Toys</h3>
+</button>
+<br>
+<br>
+<button id="clothes_btn" onclick="donate_clothes()" style="width: 500px;">
+    <img id="clothes_img" src="icons8-clothes-64.png">
+    <br>
+  <h3>  Clothes</h3>
+    </button>
+<br>
+<br>
+<button id="books_btn" onclick="donate_books()" style="width: 500px;">
+    <img id="books_img" src="icons8-books-64.png">
+    <br>
+ <h3>Books</h3>
+    </button>
+
+<br>
+<br>
+        
+                <button id="others_btn" onclick="donate_others()" style="width: 500px;">
+                    <br>
+                    <img id="books_img" src="icons8-antibiotics-64.png">
+                  <br>
+                   <h3> Other Essentials</h3>
+                    </button>
+            </div>
+</center>
+</body>
+<script src="Donate.js"></script>
+</html>

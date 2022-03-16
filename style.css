@@ -1,0 +1,121 @@
+#body_1 {
+    background-image: linear-gradient(purple, blue);
+text-align: center;
+height: 760px;
+}
+
+#About_us {
+    background-color: yellow;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#Signup_btn {
+    background-color: orange;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#Login_btn {
+    background-color: red;
+    height: 30px;
+    width: 200px;
+    font-size: large;
+}
+
+#PhoneNo_input {
+     width: 1000px;
+     height: 20px;
+ }
+
+ #City_input {
+    width: 1000px;
+    height: 20px;
+    margin-right: -65px;
+}
+
+#Email_input {
+    width: 1000px;
+    height: 20px;
+    margin-right: -35px;
+}
+
+#Name_input {
+    width: 1000px;
+    height: 20px;
+    margin-right: -55px;
+}
+
+#Login_body {
+    background-image: linear-gradient(#f222b4, lightpink);
+    height: 760px;
+}
+
+#body_4 {
+    background-image: linear-gradient(cornflowerblue, lightgreen);
+}
+
+#bodylocation {
+    background-image: linear-gradient(#f222b4, lightpink);
+    height: 760px;
+}
+
+#address {
+    width: 1000px;
+    height: 25px;
+    margin-right: 23px;
+}
+
+#time {
+    width: 1000px;
+    height: 25px;
+}
+
+#next_page {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    background-color: red;
+}
+
+#text {
+    font-size: 27px;
+    text-align: center;
+    margin: 30px;
+}
+#text2 {
+    font-size: 27px;
+}
+#children_img {
+    width: 400px;
+    height: 400px;
+}
+#body_aboutUs {
+    background-image: linear-gradient(blue, #56e3f0);
+    height: 770px;
+}
+#Backbtn {
+    background-color: lightskyblue;
+    margin-right: 1400px;
+    width: 60px;
+    height: 25px;
+}
+#Thumbs_up {
+    width: 300px;
+    height: 300px;
+}
+#thanks_body {
+    background-image: linear-gradient(#d67af0, lightblue);
+    height: 760px;
+}
+#Back {
+    background-color: plum;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 730px;
+}

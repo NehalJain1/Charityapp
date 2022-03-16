@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Charity Miles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+</head>
+<body id="Login_body">
+  <center>
+      <h1> Login </h1>
+      <hr>
+      <br> <br> <br> <br>
+
+    <span>
+       <label id="nameL"> Name : </label>
+        <input id="Name_input" class="form-control" placeholder="Enter your full name">
+    </span>
+    <br>
+    <br>
+    <br>
+    <span>
+     <label id="email_L"> E-mail id : </label> 
+        <input id="Email_input" class="form-control" placeholder="Enter your e-mail id">
+    </span>
+    <br>
+    <br>
+    <br>
+
+    <span id="city_span">
+      <label id="cityL"> City : </label> 
+        <input id="City_input" class="form-control" placeholder="Enter your city name">
+    </span>
+    <br>
+     <br>
+     <br>
+
+     <span id="phone_span">
+    <label id="NumberL"> Phone number : </label> 
+       <input id="PhoneNo_input" class="form-control" placeholder="Enter your phone number">
+    </span> 
+     <br>
+     <br>
+     <br>
+<br>
+<br> 
+
+     <button id="Login_btn" class="btn btn-primary" onclick="Login()">Login</button>
+  </center>  
+</body>
+<script src="Login.js"></script>
+</html>
